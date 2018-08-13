@@ -1,0 +1,249 @@
+body {
+    margin: 0;
+    padding: 0;
+    margin-bottom: -10px;
+    font-size:16px;
+    font-family:"Arial", sans-serif;
+    color:#404040;
+    background-color:white;
+	min-width:1040px;
+	height:100%;
+	
+}
+.container{
+    width:1020px;
+    margin:0 auto;
+	
+}
+.header,
+.footer {
+      background-color: #363636;
+      color: #c3c3c3;
+      height: 100px;  }
+	.footer{
+ flex: 0 0 auto;
+   }  
+.logo img{
+    float:left;
+	margin-top:20px;
+    width:205px;
+    height:60px;
+	background-image:src="img/logo.png"}
+ .nav {
+    float:left;
+    margin-left:50px;
+    margin-top:20px;
+    }
+.nav li{
+	/*в одну строку  обтекание слева*/
+    float:left;
+    margin-right:40px;
+    text-transform: uppercase;
+    list-style:none;
+    }
+.nav li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+a {
+  color: #ffffff;
+}
+ .news .news_li {
+	float: left;
+    margin-right: 10px;
+    text-transform: uppercase;
+	text-decoration: none;
+	color:black;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-bottom:0px;
+	}
+	
+.news li{
+list-style-type: none;
+ border-left:  1px solid #000;}
+.news li:first-child{
+	border-left:none;
+}
+
+.news .news_li a:hover
+{
+	text-decoration: underline;
+}
+
+.news_col{
+	width:100%;
+	float:left;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  margin-top: 10px;
+  /* border:1px solid black; */
+  
+  
+}
+.news, .content{
+	
+	min-height:600px;
+	width:100%;
+	margin-right: 15px;
+	margin-bottom: 15px;
+	
+  /* border:1px solid black; */
+  
+  
+}
+.content{
+	display: flex;
+}
+.news a{
+	color:black;
+	
+}
+.news_col img, .news img{
+	margin-right:20px;
+	margin-bottom:10px;
+	padding:5px;
+	border:1px solid black;
+	float:left;
+
+}
+
+	.feedback-form{
+	padding-right: 490px;
+    background-image: url("img/4.png");
+    background-repeat: no-repeat;
+    background-position: 99% 35px;
+    width:630px;
+	
+    }
+
+
+
+.nav a:hover {
+  text-decoration: underline;
+}
+
+.nav a:active {
+  color: rgba(255, 255, 255, 0.3);
+}
+.title{
+  padding-top: 10px;
+  font-weight: bold;
+  font-size: 30px;
+  font-family: "Georgia", serif;
+  color: #a38b70;
+}
+.catalog {
+  display:inline-block;
+  margin-right:50px;
+  margin-bottom: 20px;
+ color: #a38b70;
+}
+.catalog img{
+  width: 250px;
+  height:250px;
+  border: 1px solid black;}
+
+.footer a{
+  margin-top: 10px;
+  text-decoration:none;
+  float: right;
+}
+.footer a:hover {
+text-decoration: underline;
+}
+
+.form label {
+      font-size: 14px;
+      text-transform: uppercase;
+      display:inline-block;
+      padding:20px;
+	  width:150px;
+
+  }
+.form input[type="text"],
+.form input[type="password"]
+{
+        width:250px;
+        height: 20px;
+        padding:10px;
+        font: inherit;
+        color: inherit;
+        border: 2px solid #d5d5d5;
+    }
+.form input[type="text"],
+.form input[type="password"],
+.form select,
+.form textarea {
+    width:100%;
+    padding:9px 15px;
+    height:54px;
+    box-sizing:border-box;
+    font: inherit;
+    color: inherit;
+    border: 2px solid #d5d5d5;
+}
+
+  .form input[type="text"]:hover,
+ {
+        border-color:black;
+    }
+  .form input[type="text"]:focus,
+ {
+        border-color:#8d745a;
+    }
+.btn {
+	display: inline-block;
+    width: 146px;
+    padding: 10px;
+    font: inherit;
+    vertical-align: top;
+    text-align: center;
+    color: #a38b70;
+    text-transform: uppercase;
+    text-decoration: none;
+    word-wrap: break-word;
+    border: 2px solid #a38b70;
+    border-radius: 2px;
+	
+	}
+.btn:hover {
+    color: #8d745a;
+    border-color:#8d745a;
+}
+.btn:active {
+    color: rgba(141, 116, 90, 0.3);
+    border-color:#8d745a;
+}
+
+ .btn-ok{ 
+	 color:#ffffff;
+	 background-color:#a38b70}
+.btn-news{
+	float: left;
+	width: 120px;
+	margin-top:-10px;
+	border-color: #ffffff;
+	color: #ffffff;}
+
+.btn-news:hover {
+	border-color: #ffffff;
+}
+.btn-news:hover {
+    color: #ffffff;
+  border-color: #ffffff;
+}
+.btn-date{
+	display: inline-block;
+    width: 46px;
+    padding: 10px;
+    font: inherit;
+    vertical-align: top;
+    text-align: center;
+    color: #a38b70;
+    text-transform: uppercase;
+    text-decoration: none;
+    word-wrap: break-word;
+    border: 2px solid #a38b70;
+    border-radius: 2px;
+}
