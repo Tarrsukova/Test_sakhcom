@@ -7,7 +7,7 @@ function get_category(){
 	$sql = "Select * from category";
 	
 	$result = mysqli_query($link, $sql);
-	/*вместо числовых индксов в массиве наши значения id category_name*/
+	
 	$category= mysqli_fetch_all($result, MYSQLI_ASSOC);
 	
 	return $category;
